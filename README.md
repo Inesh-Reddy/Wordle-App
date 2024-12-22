@@ -60,5 +60,56 @@ Input & Form Tags :
 
 Table, Comments & hard return :
 
+    - <table></table> : creates tables
+        . <table>
+            <thead>
+                <tr>
+                    <td> Names</td>
+                    <td> points</td>
+                </tr>
+            </thead>
+          </table>
+
+    - <marquee></marquee> : text scrolls from end to end
+        . <marquee>
+            This is moving 
+          </marquee>
+
+    - comments: <!-- This is never gets shown to user --!>
+
+    - A Note on Hard Returns : hard return spaces doesn't work in the tags
+        . <p>
+            This is some text
+
+            This is some other txt.
+          </p>
+          The above one will not work.
+        Work arounds :
+
+        correct way:
+        . <p>This is some text</p>
+          <p>This is some other txt.</p>
+
+        in-correct way:
+        . <p>
+            This is some text
+            <br></br>
+            This is some other txt.
+          </p>  
+
+Attribute, classes & IDs : { Used to modify the behaviour of the tags }
+
+    - Attributes : 
+        . <input type="text" /> 
+            . attribute { type="text" }: key-> type and value-> text
+        
+    - Classes : Any tag can have a class 
+        . <h3 class="the-red-one" >This one is red>/h3
+            classes are defined in css, it defines what it does.
+
+    - IDs :  
+
+
+
 
 
