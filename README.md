@@ -3,7 +3,7 @@
 
 ## HTML
 
-Tags : defines the semantic ( <h1></h1>, <p></p>, etc )
+Tags : defines the semantic
 
 Common HTML Tags: 
 
