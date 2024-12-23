@@ -125,7 +125,7 @@ Organizing HTML :Mostly ecapsulate things in div...encapsulations in that partic
 Head & Meta Tags :
     - 
         . <!-- <!DOCTYPE html> -->
-            <html lang="en">
+            <!-- <html lang="en">
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -134,4 +134,4 @@ Head & Meta Tags :
             <body>
                 
             </body>
-            </html>
+            </html> -->
