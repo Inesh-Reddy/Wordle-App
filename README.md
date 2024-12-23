@@ -123,15 +123,3 @@ Organizing HTML :Mostly ecapsulate things in div...encapsulations in that partic
       . Here classes acts a documnetation.{ we actualy use them for styling }
 
 Head & Meta Tags :
-    - 
-        . <!-- <!DOCTYPE html> -->
-            <!-- <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Document</title>
-            </head>
-            <body>
-                
-            </body>
-            </html> -->
