@@ -32,7 +32,7 @@ Common HTML Tags:
             . <button>Click me!</button>
         
         - <img></img> : image Tag
-            . <img src;"http://pets-images.com" alt="an adorable puppy"/>
+            . <img src="http://pets-images.com" alt="an adorable puppy"/>
 
 
 Input & Form Tags : 
@@ -107,9 +107,31 @@ Attribute, classes & IDs : { Used to modify the behaviour of the tags }
         . <h3 class="the-red-one" >This one is red>/h3
             classes are defined in css, it defines what it does.
 
-    - IDs :  
+    - IDs :  Ids are unique
+        . <h3 Id="brand"> my site Branding</h3>
+        . <a href="ids">It directly links to IDs</a>
+
+    - Note: Always try to use classes instead of Ids.
 
 
+Organizing HTML :Mostly ecapsulate things in div...encapsulations in that particular tags ..it is preferential at the end.
 
+    - <div class="social-posts>
+        <h2 class="username" >@sassy_pants_mcgee</h2>
+        <h3 class="posts" >Posted 15mins ago</h3>
+      </div>
+      . Here classes acts a documnetation.{ we actualy use them for styling }
 
-
+Head & Meta Tags :
+    - 
+        . <!-- <!DOCTYPE html> -->
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+            </head>
+            <body>
+                
+            </body>
+            </html>
