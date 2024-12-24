@@ -224,3 +224,107 @@ Specificity (ID > class > element).
                 color: blue;
             }
         In this case, the h1 text will be red, even though there's a rule later that sets it to blue. The !important rule has higher priority.
+
+PseudoClasses :
+
+    - .hover-example {
+        width: 100px;
+        height: 100px;
+        background-color: crimson;
+    }
+      .hover-example:hover { //:hover psuedoclass
+        width: 100px;
+        height: 100px;
+        background-color: green;
+      }
+
+PsuedoElements :
+
+    - .chapter p {
+        margin:0;
+    }
+    .chapter::after {  // ::after, ::before psuedoelement
+        content: "literally anything";
+        font-size: 50px;
+        text-align: center;
+        display: block;
+        color: red;
+    }
+    .first-child-example:nth-child(2n){
+        color: limegreen;
+    }
+
+CSS Box Models :
+
+     -   *{
+        box-sizing: border-box;
+     }
+
+
+     - Components of the CSS Box Model
+            The inner part where text, images, or other elements are displayed.
+            Its size can be controlled using properties like width and height.
+            Padding
+
+            The space between the content and the border.
+            Padding is transparent and can be adjusted using padding or individual properties (padding-top, padding-right, etc.).
+            Border
+
+            Surrounds the padding and content.
+            Its thickness and style can be controlled with border properties like border-width, border-style, and border-color.
+            Margin
+
+            The outermost layer that creates space between the element and neighboring elements.
+            Margins are also transparent and can be adjusted using margin or individual properties (margin-top, margin-left, etc.).
+            Visual Representation of the Box Model
+            diff
+            +-----------------------+
+            |       Margin          |
+            +-----------------------+
+            |       Border          |
+            +-----------------------+
+            |       Padding         |
+            +-----------------------+
+            |       Content         |
+            +-----------------------+
+
+            Key Properties
+
+            box-sizing
+
+            Controls how the total width and height of an element are calculated.
+
+            Values:
+                content-box (default): Total size = Content + Padding + Border.
+                border-box: Total size includes Content, Padding, and Border.
+                Padding and Margin Shorthand
+                Padding Example:
+                padding: 10px 15px 20px 25px; /* Top, Right, Bottom, Left */
+
+                Margin Example:
+                margin: 10px auto; /* Top & Bottom, Left & Right */
+
+            Practical Example
+
+            <div style="
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            border: 5px solid black;
+            margin: 20px;
+            ">
+
+            Box Model Example
+            </div>
+            Width of the Element:
+            Content: 200px
+            Padding: 10px (on all sides → adds 20px to width)
+            Border: 5px (on all sides → adds 10px to width)
+            Total Width: 200px + 20px + 10px = 230px
+            Spacing Around the Element:
+
+            Margin adds 20px of space from surrounding elements.
+
+            Common Issues:
+            Misunderstanding box-sizing can lead to unexpected sizes.
+            Margins of adjacent elements can collapse into a single margin.
