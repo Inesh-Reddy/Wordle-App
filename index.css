@@ -1,0 +1,11 @@
+.h1 {
+  color: rgb(97, 205, 50);
+  font-size: 60px;
+  font-weight: normal;
+  text-decoration: underline;
+  text-transform: uppercase;
+  border: 3px solid pink;
+}
+.img {
+  border: 3px solid rgb(147, 17, 39);
+}
